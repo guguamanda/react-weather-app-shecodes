@@ -1,6 +1,11 @@
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
+  background: radial-gradient(
+    401px at 50.6% -0.3%,
+    rgba(255, 255, 255, 0.31) 1.2%,
+    rgb(36, 212, 219) 100.2%
+  );
   padding: 16px;
   border-radius: 4px;
   color: rgb(135, 135, 135);
@@ -23,13 +28,6 @@
   font-weight: 100;
   line-height: 19px;
   list-style: none;
-}
-
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
-  display: inline-block;
 }
 
 .Weather .temperature {
